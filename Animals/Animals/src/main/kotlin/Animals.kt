@@ -73,7 +73,7 @@ class Vehicle: Roamable {
             item.roam()
             item.eat()
         }
-        val roamables = arrayOf(Hippo(), Wolf(),Vehicle())
+        val roamables = arrayOf(Hippo(), Wolf(),Vehicle(),Hippo())
         for (item in roamables) {
             item.roam()
             if (item is Animal) {
